@@ -37,7 +37,6 @@ public class Updates extends  Worker {
     private String uriToZip;
     private SharedPreferences prefs;
 
-
 public Updates ( Context context, WorkerParameters params    ){
         super(context, params);
         prefs = getApplicationContext().getSharedPreferences("fr.istic.mob.starv1moussakevin", Context.MODE_PRIVATE);
