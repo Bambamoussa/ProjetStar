@@ -3,6 +3,7 @@ package fr.istic.mob.starv1moussakevin;
 public class Constants {
 
     public static final String URL = "https://data.explore.star.fr/api/records/1.0/search/?dataset=tco-busmetro-horaires-gtfs-versions-td";
+    
     public static final String ROUTES_FILE = "starTimetablesroutes.txt";
     public static final String TRIPS_FILE = "starTimetablestrips.txt";
     public static final String CALENDAR_FILE = "starTimetablescalendar.txt";
