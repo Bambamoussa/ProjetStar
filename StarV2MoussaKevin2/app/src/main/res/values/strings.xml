@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">StarV2MoussaKevin</string>
+
+    <string name="key_request_day_of_week" translatable="false">REQUEST_DAY_OF_WEEK</string>
+    <string name="key_request_arrival_time" translatable="false">REQUEST_ARRIVAL_TIM</string>
+    <string name="key_stop_name" translatable="false">STOP_NAME</string>
+    <string name="date_pick"> DATE </string>
+    <string name="select"> Selectionner le Bus </string>
+    <string name="directionss"> Votre direction ?   </string>
+    <string name="time_pick"> HEURE </string>
+    <string name="route_pick">Ligne de BUS </string>
+    <string name="direction_pick">Direction</string>
+    <string name="search_timetables_button">OK</string>
+    <string name="label_fragment2"> </string>
+    <string name="label"> Selectionner vos arrets </string>
+    <string name="key_request_date" translatable="false">REQUEST_DATE</string>
+    <string name="key_request_time" translatable="false">REQUEST_TIME</string>
+    <string name="key_request_route" translatable="false">REQUEST_ROUTE</string>
+    <string name="key_request_direction" translatable="false">REQUEST_DIRECTION</string>
+    <string name="key_stop_id" translatable="false">STOP_ID</string>
+    <string name="key_request_trip" translatable="false">REQUEST_TRIP</string>
+    <string name="label_fragment3">Horaires</string>
+    <string name="label_fragment4"> </string>
+    <string name="toast_invalid_request">Recommencez votre requete est imcomplete </string>
+    <string name="search_title">Rechercher votre arret ici</string>
+    <string name="no_timetables">"Il n'y a pas d'horaire disponible pour votre demande</string>
+</resources>
