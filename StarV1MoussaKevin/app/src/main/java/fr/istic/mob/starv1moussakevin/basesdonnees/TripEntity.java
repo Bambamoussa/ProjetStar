@@ -36,7 +36,6 @@ public class TripEntity {
 
     }
 
-
     public String getRoute_id() {
         return route_id;
     }
