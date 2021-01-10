@@ -7,8 +7,8 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
-    <!--    <uses-permission android:name="android.permission.READ_USER_DICTIONARY"/>-->
-    <!--    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY"/>-->
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY"/>-->
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY"/>-->
 
     <permission-group android:name="starv1moussakevin.permission.READ_WRITE"/>
 
@@ -38,7 +38,7 @@
             </intent-filter>
         </activity>
         <provider
-            android:name="StarProvider"
+            android:name=".StarProvider"
             android:authorities="fr.istic.mob.starv1moussakevin"
             android:enabled="true"
             android:exported="true"
