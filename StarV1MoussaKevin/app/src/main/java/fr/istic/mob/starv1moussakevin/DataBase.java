@@ -37,7 +37,6 @@ public class DataBase extends Worker {
 
         return Result.success();
     }
-
     private void clearDatabase() {
         StarDatabase.getInstance(context).routeDao().deleteAll();
     }
