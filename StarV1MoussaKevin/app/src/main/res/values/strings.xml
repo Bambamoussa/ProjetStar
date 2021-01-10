@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StarV1MoussaKevin</string>
+    <string name="permission_read_provider">Autorise la lecture de la lecture</string>
+    <string name="permission_write_provider">Ecriture BD</string>
+    <string name="service_scanning_for_files">Verif de nouveaux fichiers</string>
+    <string name="time_pick">Heure</string>
+    <string name="line_pick">Ligne</string>
+    <string name="validate">Valider</string>
+    <string name="date_pick">Date</string>
+    <string name="timetables_download_status_message">Téléchargement ...</string>
+    <string name="timetables_unzip_status_message">Extraction ...</string>
+    <string name="db_loading_status_message">Chargement des données dans l\'application...</string>
+    <string name="search_timetables_button">Valider</string>
+    <string name="no_internet">Pas d\'internet...</string>
+    <string name="notification_title">StarMoussaKevin</string>
+    <string name="new_timetables_notification_desc">Horaires disponibles ! Cliquer ici</string>
+</resources>
