@@ -5,7 +5,6 @@ import android.app.NotificationManager;
 import android.content.Context;
 import android.os.Build;
 import android.os.Handler;
-
 import androidx.core.app.NotificationCompat;
 
 public class ProgressManager {
