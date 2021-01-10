@@ -7,7 +7,6 @@ import androidx.room.PrimaryKey;
 
 import fr.istic.mob.starv1moussakevin.basesdonnees.DAO.StarContract;
 
-
 @Entity(tableName = StarContract.Trips.CONTENT_PATH)
 public class TripEntity {
 
