@@ -12,9 +12,11 @@ import android.os.Build;
 import androidx.core.app.NotificationCompat;
 import androidx.work.Worker;
 import androidx.work.WorkerParameters;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
@@ -33,6 +35,7 @@ public class Updates extends  Worker {
     private String oldJson;
     private String uriToZip;
     private SharedPreferences prefs;
+
 
 public Updates ( Context context, WorkerParameters params    ){
         super(context, params);
@@ -60,11 +63,9 @@ public Updates ( Context context, WorkerParameters params    ){
                     } else if ((currentDate.equals(beginDateSecondZip) || currentDate.after(beginDateSecondZip)) && (currentDate.equals(endDateSecondZip) || currentDate.before(endDateSecondZip))) {
                         uriToZip = jsonArray.getJSONObject(1).getJSONObject("fields").getString("url");
                     }
-                     else
-                    {
+                    else {
                         uriToZip = jsonArray.getJSONObject(1).getJSONObject("fields").getString("url");
                     }
-               
                     if (oldJson != null) {
                         oldJson = json.toString();
                         prefs.edit().putString("oldJson", oldJson).apply();

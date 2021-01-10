@@ -7,6 +7,7 @@ import androidx.room.PrimaryKey;
 
 import fr.istic.mob.starv1moussakevin.basesdonnees.DAO.StarContract;
 
+
 @Entity(tableName = StarContract.Trips.CONTENT_PATH)
 public class TripEntity {
 
@@ -35,6 +36,7 @@ public class TripEntity {
         this.direction_id = direction_id;
 
     }
+
 
     public String getRoute_id() {
         return route_id;

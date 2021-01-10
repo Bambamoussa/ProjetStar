@@ -1,6 +1,7 @@
 package fr.istic.mob.starv1moussakevin;
 
 import android.content.Context;
+
 import androidx.annotation.NonNull;
 import androidx.work.OneTimeWorkRequest;
 import androidx.work.WorkManager;
@@ -18,7 +19,6 @@ import java.util.zip.ZipInputStream;
 
 public class Decompres extends Worker {
 
-    
     ProgressManager progressManager;
     private String pathToZipFile;
     private String targetLocation;

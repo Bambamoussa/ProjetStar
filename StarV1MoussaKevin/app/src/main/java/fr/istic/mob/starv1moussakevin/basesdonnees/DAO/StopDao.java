@@ -9,7 +9,6 @@ import java.util.List;
 import fr.istic.mob.starv1moussakevin.basesdonnees.DAO.StarContract;
 import fr.istic.mob.starv1moussakevin.basesdonnees.StopEntity;
 
-
 @Dao
 public interface StopDao {
 
