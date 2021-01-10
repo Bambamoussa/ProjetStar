@@ -42,7 +42,6 @@ public class DataBase extends Worker {
         StarDatabase.getInstance(context).routeDao().deleteAll();
     }
 
-
     private void fillDatabase() {
 
         Fichiers fichiers = new Fichiers(context.getExternalFilesDir(null).toString());
