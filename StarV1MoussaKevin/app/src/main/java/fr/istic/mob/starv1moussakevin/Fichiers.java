@@ -20,7 +20,6 @@ public class Fichiers {
         this.path = path;
     }
 
-
     public ArrayList<?> readEntitiesFromFile(String fileName, Class type) {
         ArrayList<Object> entities = new ArrayList<>();
         try {
