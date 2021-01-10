@@ -18,7 +18,6 @@ import fr.istic.mob.starv1moussakevin.basesdonnees.DAO.StopDao;
 import fr.istic.mob.starv1moussakevin.basesdonnees.DAO.StopTimeDao;
 import fr.istic.mob.starv1moussakevin.basesdonnees.DAO.TripDao;
 
-
 public class StarProvider extends ContentProvider {
 
         private static final int QUERY_ROUTES = 1;
