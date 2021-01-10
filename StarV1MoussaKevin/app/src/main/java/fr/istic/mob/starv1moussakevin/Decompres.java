@@ -18,6 +18,7 @@ import java.util.zip.ZipInputStream;
 
 public class Decompres extends Worker {
 
+    
     ProgressManager progressManager;
     private String pathToZipFile;
     private String targetLocation;
