@@ -60,6 +60,11 @@ public Updates ( Context context, WorkerParameters params    ){
                     } else if ((currentDate.equals(beginDateSecondZip) || currentDate.after(beginDateSecondZip)) && (currentDate.equals(endDateSecondZip) || currentDate.before(endDateSecondZip))) {
                         uriToZip = jsonArray.getJSONObject(1).getJSONObject("fields").getString("url");
                     }
+                     else
+                    {
+                        uriToZip = jsonArray.getJSONObject(1).getJSONObject("fields").getString("url");
+                    }
+               
                     if (oldJson != null) {
                         oldJson = json.toString();
                         prefs.edit().putString("oldJson", oldJson).apply();
